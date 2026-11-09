@@ -1,0 +1,31 @@
+{
+  "home": {
+    "lat": 41.9786,
+    "lon": -87.9048,
+    "label": "HOME"
+  },
+  "radius_nm": 15,
+  "units": "imperial",
+  "poll_seconds": 20,
+  "min_redraw_seconds": 30,
+  "ignore_on_ground": true,
+  "max_altitude_ft": 45000,
+  "min_altitude_ft": 0,
+  "sticky_hold_seconds": 90,
+  "sticky_beat_margin_nm": 3.0,
+  "show_photo": true,
+  "full_refresh_every": 20,
+  "cache_dir": "cache",
+  "http_timeout_seconds": 8,
+  "display": {
+    "rotate_180": false,
+    "epd_module": "epd7in5_V2"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "layout": "alternate",
+  "detail_after_seconds": 60,
+  "logbook": true
+}
